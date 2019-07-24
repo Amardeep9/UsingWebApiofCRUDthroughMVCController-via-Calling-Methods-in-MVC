@@ -26,3 +26,6 @@ Add some Layout Code for better Front End
 Install Alertify JS and Drag and Drop in Layout file
 For Delect just check through Alertify Js code 
 
+
+
+https://www.youtube.com/watch?v=iublAXAm8HQ
