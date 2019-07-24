@@ -1,0 +1,16 @@
+SET IDENTITY_INSERT [dbo].[Employee] ON
+GO
+INSERT [dbo].[Employee] ([EmployeeID],[Name],[Position],[Age],[Salary]) Values (1,N'Amardeep','Softaware Developer',27,152445)
+GO
+INSERT [dbo].[Employee] ([EmployeeID],[Name],[Position],[Age],[Salary]) Values (2,N'Ranjit','Research & Development',26,15245)
+GO
+INSERT [dbo].[Employee] ([EmployeeID],[Name],[Position],[Age],[Salary]) Values (3,N'Rakesh','Civil worker',25,1545)
+GO
+INSERT [dbo].[Employee] ([EmployeeID],[Name],[Position],[Age],[Salary]) Values (4,N'Bhupendra','Chemist',24,1521445)
+GO
+INSERT [dbo].[Employee] ([EmployeeID],[Name],[Position],[Age],[Salary]) Values (5,N'Pankaj','Jobless',23,1524451)
+GO
+SET IDENTITY_INSERT [dbo].[Employee] OFF
+GO
+
+select * from Employee
